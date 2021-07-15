@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <!--    Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.-->
+        <!--    Вивести кожну змінну за допомогою: console.log , alert, document.write-->
+        <script>
+            let msg1 ='Hello';
+            console.log(msg1);
+            document.write('<h1>'+ msg1 +'</h1>');
+            let msg2 ='owu';
+            console.log(msg2);
+            document.write(`<h2>${msg2}</h2>`);
+            let msg3 ='com';
+            console.log(msg3);
+            document.write(`<h3>${msg3}</h3>`);
+            let msg4 ='ua';
+            console.log(msg4);
+            document.write(`<h4>${msg4}</h4>`);
+            let msg5 ='1';
+            console.log(msg5);
+            document.write(`<h5>${msg5}</h5>`);
+            let msg6 ='10';
+            console.log(msg6);
+            document.write(`<h6>${msg6}</h6>`);
+            let msg7 ='-999';
+            console.log(msg7);
+            document.write(`<h6>${msg7}</h6>`);
+            let msg8 ='123';
+            console.log(msg8);
+            document.write(`<h6>${msg8}</h6>`);
+            let msg9 ='3.14';
+            console.log(msg9);
+            document.write(`<h6>${msg9}</h6>`);
+            let msg10 ='2.7';
+            console.log(msg10);
+            document.write(`<h6>${msg10}</h6>`);
+            let msg11 ='16';
+            console.log(msg11);
+            document.write(`<h6>${msg11}</h6>`);
+            let msg12 ='true';
+            console.log(msg12);
+            document.write(`<h6>${msg12}</h6>`);
+            let msg13 ='false';
+            console.log(msg13);
+            document.write(`<h6>${msg13}</h6>`);
+            <!--    Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.-->
+            <!--    Вивести кожну змінну за допомогою: console.log , alert, document.write-->
+            let msg14 ='Hi';
+            console.log(msg14);
+            document.write('<h1>'+ msg14 +'</h1>');
+            let msg15 ='my';
+            console.log(msg15);
+            document.write(`<h2>${msg15}</h2>`);
+            let msg16 ='name';
+            console.log(msg16);
+            document.write(`<h3>${msg16}</h3>`);
+            let msg17 ='is';
+            console.log(msg17);
+            document.write(`<h4>${msg17}</h4>`);
+            let msg18 ='7';
+            console.log(msg18);
+            document.write(`<h5>${msg18}</h5>`);
+            let msg19 ='29';
+            console.log(msg19);
+            document.write(`<h6>${msg19}</h6>`);
+            let msg20 ='777';
+            console.log(msg20);
+            document.write(`<h6>${msg20}</h6>`);
+            let msg21 ='987';
+            console.log(msg21);
+            document.write(`<h6>${msg21}</h6>`);
+            let msg22 ='7.17';
+            console.log(msg22);
+            document.write(`<h6>${msg22}</h6>`);
+            let msg23 ='17.7';
+            console.log(msg23);
+            document.write(`<h6>${msg23}</h6>`);
+            let msg24 ='30';
+            console.log(msg24);
+            document.write(`<h6>${msg24}</h6>`);
+            let msg25 ='else';
+            console.log(msg25);
+            document.write(`<h6>${msg25}</h6>`);
+            let msg26 ='mania';
+            console.log(msg26);
+            document.write(`<h6>${msg26}</h6>`);
+            <!--    Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. Зконкатенувати їх в одну змінну person.-->
+            let person = {
+                firstName: 'Volodia',
+                middleName: 'Olegovich',
+                lastName: 'Kovalchuk',
+            }
+            console.log(person.firstName);
+            console.log(person.middleName)
+            console.log(person.lastName)
+            //         document.write(
+            //   `${person.firstName} ${person.middleName} ${person.lastName}`);
+            // <!--    За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.-->
+            // <!--    Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".-->
+            let person1 = {
+                firstName: 'Volodia',
+                middleName: 'Olegovich',
+                age: 29,
+            };
+            console.log(person1)
+            let firstName =prompt('Enter your Name');
+            let middleName =prompt('Enter your middle name');
+            let age =prompt('Enter your age');
+            document.write(`Вітаю ${firstName} ${middleName}. Тобі ${age} років`)
+            // <!--    За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.-->
+            // <!--    let a = 100; let b = '100'; let c = true;-->
+            let a = 100;
+            let b = '100';
+            let c = true;
+            console.log(typeof a);
+            console.log(typeof b);
+            console.log(typeof c);
+            <!--    Поставет відповідний оператор в виразах що б вийшов відповідний результат.-->
+            <!--    В однакових виразаї не використовувати однакові оператори!!!-->
+            <!--    5 ? 6 -> true-->
+            <!--    5 ? 6 -> false-->
+            <!--    5 ? 6 -> false-->
+            <!--    5 ? 6 -> false-->
+            <!--    10 ? 10 -> true-->
+            <!--    10 ? 10 -> true-->
+            <!--    10 ? 10 -> false-->
+            <!--    10 ? 10 -> false-->
+            <!--    10 ? 10 -> false-->
+            <!--    123 ? '123' -> false-->
+            <!--    123 ? '123' -> true-->
+            console.log(5 < 6);
+            console.log(5 > 6);
+            console.log(5 === 6);
+            console.log(5 >= 6);
+
+            console.log(10 === 10);
+            console.log(10 == 10);
+            console.log(10 < 10);
+            console.log(10 !== 10);
+            console.log(10 > 10);
+
+            console.log(123 < 123);
+            console.log(123 === 123);
+        </script>
+</body>
+</html>
